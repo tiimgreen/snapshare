@@ -10,10 +10,16 @@
     <string name="login_button_text">Sign In</string>
     <string name="login_title_text">SNAPSHARE</string>
     <string name="sign_up_text_on_sign_in_page_normal">Dont have an account?</string>
-    <string name="sign_up_text_on_sign_in_page_bold">Sign Up!</string>
+    <string name="sign_up_text_on_sign_in_page_bold">Sign Up.</string>
+    <string name="sign_in_text_on_sign_up_page_normal">Already have an account?</string>
+    <string name="sign_in_text_on_sign_up_page_bold">Sign In.</string>
     <string name="title_activity_sign_up">Sign Up</string>
     <string name="sign_up_button_text">Sign Up</string>
-    <string name="sign_in_text_on_sign_up_page">Already have an account? Sign In.</string>
     <string name="email_hint">Email</string>
+    <string name="signup_error_message">Please ensure you enter an email, username and password.</string>
+    <string name="signup_error_title">Oops</string>
+    <string name="login_error_message">Please ensure you enter a username and password.</string>
+    <string name="login_error_title">Oops</string>
+    <string name="action_logout">Log Out</string>
 
 </resources>
