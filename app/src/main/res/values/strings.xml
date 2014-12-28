@@ -9,7 +9,8 @@
     <string name="password_hint">Password</string>
     <string name="login_button_text">Sign In</string>
     <string name="login_title_text">SNAPSHARE</string>
-    <string name="sign_up_text_on_sign_in_page">Dont have an account? Sign Up!</string>
+    <string name="sign_up_text_on_sign_in_page_normal">Dont have an account?</string>
+    <string name="sign_up_text_on_sign_in_page_bold">Sign Up!</string>
     <string name="title_activity_sign_up">Sign Up</string>
     <string name="sign_up_button_text">Sign Up</string>
     <string name="sign_in_text_on_sign_up_page">Already have an account? Sign In.</string>

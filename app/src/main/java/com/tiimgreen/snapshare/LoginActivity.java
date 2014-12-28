@@ -3,6 +3,7 @@ package com.tiimgreen.snapshare;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.text.Html;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,6 +20,12 @@ public class LoginActivity extends ActionBarActivity {
         setContentView(R.layout.activity_login);
 
         mSignUpTextView = (TextView) findViewById(R.id.signUpTextView);
+
+        // Make certain text bold
+        String textViewText = getString(R.string.sign_up_text_on_sign_in_page_normal) +
+                " <b>" + getString(R.string.sign_up_text_on_sign_in_page_bold) + "</b>";
+
+        mSignUpTextView.setText(Html.fromHtml(textViewText));
         mSignUpTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
