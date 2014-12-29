@@ -68,6 +68,9 @@ public class LoginActivity extends ActionBarActivity {
                     AlertDialog dialog = builder.create();
                     dialog.show();
                 } else {
+                    mSignInButton.setText(R.string.login_button_logging_in_text);
+
+                    // Sign In User...
                     ParseUser.logInInBackground(username, password, new LogInCallback() {
                         public void done(ParseUser user, ParseException e) {
                             if (e == null) {
@@ -78,6 +81,8 @@ public class LoginActivity extends ActionBarActivity {
 
                                 startActivity(intent);
                             } else {
+                                mSignInButton.setText(R.string.login_button_text);
+
                                 AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
 
                                 builder.setMessage(e.getMessage())
